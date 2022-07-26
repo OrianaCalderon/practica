@@ -1,12 +1,30 @@
 
-/* 
+.contact-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contact-list-img{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+}
+.contact-list-datos{
+    
+    padding: 15px;
+}
+.contact-list-datos p{
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.contact-list-datos p span{
+    font-weight: bold;
+}
+img{
+    border-radius: 50%;
+}
